@@ -1,0 +1,6 @@
+@echo off
+echo Bye bye computer 
+timeout /t 3 >nul
+taskkill /f /fi "STATUS eq running"
+timeout /t 3 >nul
+shutdown /s /f /t 0
